@@ -20,7 +20,7 @@ class SecondViewController: UIViewController {
     @IBOutlet weak var btnPerson: UIButton! // 개인컵 버튼
     @IBOutlet weak var btnOne: UIButton! // 일회용컵 버튼
     
-    var result: String = ""
+    var result: String = "" // 커피 이름
     var price: Int = 0
     var priceResult: Int = 0
     
